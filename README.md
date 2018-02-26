@@ -1,7 +1,7 @@
 # Starbuzz
 Head First Android Development (2nd edition) project
 
-Chapter 6 -Put Things in Their PLace
+Chapter 7 -List Views and Adapters
 
 ### TODO:
 1) Have the food and stores items respond to clicking.
