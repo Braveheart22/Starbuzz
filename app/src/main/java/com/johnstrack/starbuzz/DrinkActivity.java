@@ -27,7 +27,7 @@ public class DrinkActivity extends Activity {
         description.setText(drink.getDescription());
 
         //Populate the drink image
-        ImageView photo = findViewById(R.id.imageView);
+        ImageView photo = findViewById(R.id.photo);
         photo.setImageResource(drink.getImageResourceId());
         photo.setContentDescription(drink.getName());
     }
