@@ -21,7 +21,6 @@ public class DrinkActivity extends Activity {
 
         //Get the drink from the intent
         int drinkId = (Integer)getIntent().getExtras().get(EXTRA_DRINKID);
-//        Drink drink = Drink.drinks[drinkId];
 
         //Create a cursor
         SQLiteOpenHelper starbuzzDatabaseHelper = new StarbuzzDatabaseHelper(this);
