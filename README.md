@@ -7,3 +7,4 @@ Chapter 7 / 15 / 16 / 17- List Views and Adapters / SQLite Databases / Basic Cur
 1) Have the food and stores items respond to clicking.
 2) Add food and stores category and detail activities.
 3) ~~Maybe pull info from a database instead of hard coded arrays.~~
+4) Change all database activities to run in a background thread.
