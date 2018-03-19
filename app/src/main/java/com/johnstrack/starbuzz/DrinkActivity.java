@@ -27,7 +27,7 @@ public class DrinkActivity extends Activity {
         try {
             SQLiteDatabase db = starbuzzDatabaseHelper.getReadableDatabase();
             Cursor cursor = db.query("drink",
-                    new String[] {"name", "description", "image_resource_id"},
+                    new String[] {"name", "description", "image_resource_id", "favorite"},
                     "_id = ?",
                     new String[] {Integer.toString(drinkId)},
                     null, null, null  );
